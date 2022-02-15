@@ -207,7 +207,7 @@ h2 {
   }
 }
 
-/*agregando una animacion cualquiera*/
+/*agregando una animacion*/
 
 .box {
   border-radius: 6px;
@@ -228,6 +228,13 @@ h2 {
   /* transition-property: all;
   transition-duration: 2s; */
   transition: all 2s;
+}
+
+/*pseudo clase :hover */
+
+.box:hover {
+  /*transformacion / agregar un numero entero sin unidades de medida para modificar el elemento*/
+  transform: scale(4);
 }
 
 
