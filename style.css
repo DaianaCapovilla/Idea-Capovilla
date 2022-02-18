@@ -207,6 +207,37 @@ h2 {
   }
 }
 
+/*agregando una animacion*/
+
+.box {
+  border-radius: 6px;
+  height: 40px;
+  width: 80px;
+  margin: 50px auto;
+}
+
+.box-one {
+  background-color: aquamarine;
+}
+
+.box-two {
+  background-color: blueviolet;
+  /*para usar transiciones hay que agregar dos valores
+  1- transition-property (a todo el elemento elemento -all- o se puede poner a un border pero gralmente se pone a todo el elemento)
+  2- transition-duration (en tiempo) */
+  /* transition-property: all;
+  transition-duration: 2s; */
+  transition: all 2s;
+}
+
+/*pseudo clase :hover */
+
+.box:hover {
+  /*transformacion / agregar un numero entero sin unidades de medida para modificar el elemento*/
+  transform: scale(4);
+}
+
+
 /*Seccion sober mi*/
 
 .grid-container {
