@@ -85,12 +85,16 @@ html {
 
 /*main*/
 
+.container {
+  padding: 20px 0px;
+}
+
 h1, h2 {
   font-family: "Literata-headers";
   font-size: var(--size);
   font-weight: var(--weight);
   color: var(--color);
-  padding: 20px 0px;
+  /* padding: 20px 0px; */
 }
 
 body, html {
