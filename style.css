@@ -83,149 +83,39 @@ html {
   z-index: 999;
 }
 
-/*Seccion servicios*/
+/*main*/
 
-h1 {
-    color: var(--color);
-    font-family: "Literata-headers";
-    font-size: var(--size);
-    font-weight: var(--peso);
-    padding: var(--padding);
-}
-
-.fotos-servicios {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.servicito {
-  padding: 50px 0px;
-}
-/*Seccion proyectos*/
-
-h2 {
-  color: var(--color);
+h1, h2 {
   font-family: "Literata-headers";
   font-size: var(--size);
-  font-weight: var(--peso);
-  padding: var(--padding);
+  font-weight: var(--weight);
+  color: var(--color);
+  padding: 20px 0px;
 }
 
-.fotos-proyectos {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-/* Tablet */
-@media screen and (max-width: 980px) and (min-width: 481px) {
-  .fotos-proyectos {
-      flex-direction: column;
-  }    
-}
-
-/* Mobile */
-@media screen and (max-width: 400px) {
-  .fotos-proyectos {
-      flex-direction: column;
-  }
-}
-
-/*agregando una animacion*/
-
-.box {
-  border-radius: 6px;
-  height: 40px;
-  width: 80px;
-  margin: 50px auto;
-}
-
-.box-one {
-  background-color: aquamarine;
-}
-
-.box-two {
-  background-color: blueviolet;
-  /*para usar transiciones hay que agregar dos valores
-  1- transition-property (a todo el elemento elemento -all- o se puede poner a un border pero gralmente se pone a todo el elemento)
-  2- transition-duration (en tiempo) */
-  /* transition-property: all;
-  transition-duration: 2s; */
-  transition: all 2s;
-}
-
-/*pseudo clase :hover */
-
-.box:hover {
-  /*transformacion / agregar un numero entero sin unidades de medida para modificar el elemento*/
-  transform: scale(4);
-}
-
-
-/*Seccion sober mi*/
-
-.grid-container {
-  display: grid;
-  /* border: 4px solid black; */
-  grid-template-columns: 1fr 4fr;
-  column-gap: 10px;
-}
-
-/* .grid-item {
-  border: 2px solid black;
-} */
-
-/* Tablet */
-@media screen and (max-width: 850px) and (min-width: 481px) {
-  .grid-container {
-      grid-template-columns: auto;
-      grid-template-rows: auto auto;
-  }    
-  .first-item {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    display: flex;
-    justify-content: center;
-    
-  }
-
-  /* .foto-arquitecta {
-    width: ;
-  } */
-
-  /*VER ESTO !!!!!!!!!*/
-  
-  .second-item {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-  }
-}
-
-/* Mobile */
-@media screen and (max-width: 400px) {
-  .fotos-proyectos {
-      flex-direction: column;
-  }
+body, html {
+  height: 100%;
 }
 
 h3 {
   color: var(--color);
   font-family: "Literata-headers";
   font-size: 24px;
-  padding-left: 10px;
 }
 
 p {
   font-family: "Inter-parrafos";
-  padding: 10px 10px;
 }
 
-.btn {
+/*Boton de ver mas */
+
+.caja-boton {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.botoncito {
   border: none;
   color: white;
   padding: 14px 28px;
@@ -234,24 +124,18 @@ p {
   cursor: pointer;
 }
 
-.boton-vermas {
-  display: flex;
-  justify-content: flex-end;
-  margin: 20px;
+.vermas {
+  background-color: hsl(150, 2%, 17%);
 }
 
-.vermas {
-  background-color: #04AA6D;
-} 
-
 .vermas:hover {
-  background-color: #46a049;
+  background-color: #717771;
 }
 
 /*Footer*/
 
 #contacto {
-  background-color: lightsalmon;
+  background-color: rgb(165, 165, 165);
 }
 
 .mapa {
