@@ -80,7 +80,7 @@ html {
 /*main*/
 
 .container {
-  padding: 20px 0px;
+padding: 20px 0px;
 }
 
 h1, h2 {
@@ -93,6 +93,47 @@ h1, h2 {
 
 body, html {
   height: 100%;
+}
+
+/*overlay*/
+.serv-contenedor {
+  position: relative;
+}
+
+.pic-serv {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  box-shadow: 0 10px 20px rgb(77, 77, 77);
+}
+
+.probandoverlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.serv-contenedor:hover .pic-serv {
+  opacity: 0.3;
+}
+
+.serv-contenedor:hover .probandoverlay {
+  opacity: 1;
+}
+
+.textoverlay {
+  background-color: #111312;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
 h3 {
