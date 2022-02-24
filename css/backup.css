@@ -6,17 +6,17 @@ html {
 
 @font-face {
   font-family: Literata-headers;
-  src: url(Tipografias/Literata/static/Literata/Literata-ExtraLight.ttf);
+  src: url(../Tipografias/Literata/static/Literata/Literata-ExtraLight.ttf);
 }
 
 @font-face {
   font-family: Inter-accion;
-  src: url(Tipografias/Inter/static/Inter-SemiBold.ttf);
+  src: url(../Tipografias/Inter/static/Inter-SemiBold.ttf);
 }
 
 @font-face {
   font-family: Inter-parrafos;
-  src: url(Tipografias/Inter/static/Inter-ExtraLight.ttf);
+  src: url(../Tipografias/Inter/static/Inter-ExtraLight.ttf);
 }
 
 /*Variables*/
@@ -46,7 +46,7 @@ html {
 
 /* Hero */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagenes/probando-foto.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/probando-foto.jpeg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;

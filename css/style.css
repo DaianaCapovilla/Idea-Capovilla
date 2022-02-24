@@ -1,0 +1,30 @@
+/*Nesting o anidamiento*/
+/* Variables */
+/*con el uso de variables de scss dejaria de existir el :root de css*/
+header {
+  background-color: green;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  list-style: circle;
+}
+header nav ul li a {
+  text-decoration: underline;
+  /* & sumar pseudoclases o pseudoelementos */
+}
+header nav ul li a:hover {
+  text-decoration: none;
+}
+
+.footer-niki {
+  background-color: green;
+}
+.footer-niki i {
+  border: 2px solid black;
+}
+
+/*listas*/
+
+/*# sourceMappingURL=style.css.map */
