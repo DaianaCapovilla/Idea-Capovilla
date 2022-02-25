@@ -13,6 +13,34 @@
 
 /*mapas*/
 /*a diferencia de las listas, me permiten crear como una lista pero de un monton de estilos agrupados que podria usar en una seccion entera*/
+/*extensiones*/
+/*son como un paquete de propiedades que quiero escribir una sola vez pero implementarlos en varios lugares */
+/*se crean con un placeholder y con las propiedades de css*/
+/*el placeholder es un simbolo de % porcentaje */
+.m-disabled, .m-okey, .m-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-disabled, .m-okey, .m-error {
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.m-error {
+  background-color: red;
+  /*puedo heredar la extension*/
+}
+
+.m-okey {
+  background-color: green;
+}
+
+.m-disabled {
+  background-color: gray;
+}
+
 header {
   /*background-color: $bg-color-general;*/
   background-color: black;
@@ -74,6 +102,34 @@ header nav ul li a:hover {
 
 .saturado {
   color: #990000;
+}
+
+/*extensiones*/
+/*son como un paquete de propiedades que quiero escribir una sola vez pero implementarlos en varios lugares */
+/*se crean con un placeholder y con las propiedades de css*/
+/*el placeholder es un simbolo de % porcentaje */
+.m-error, .m-okey, .m-disabled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-error, .m-okey, .m-disabled {
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.m-error {
+  background-color: red;
+  /*puedo heredar la extension*/
+}
+
+.m-okey {
+  background-color: green;
+}
+
+.m-disabled {
+  background-color: gray;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,34 @@
+/*extensiones*/
+/*son como un paquete de propiedades que quiero escribir una sola vez pero implementarlos en varios lugares */
+/*se crean con un placeholder y con las propiedades de css*/
+/*el placeholder es un simbolo de % porcentaje */
+
+%mensaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%m-border {
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.m-error {
+    background-color: red;
+    /*puedo heredar la extension*/
+    @extend %mensaje;
+    @extend %m-border;
+}
+
+.m-okey {
+    background-color: green;
+    @extend %mensaje;
+    @extend %m-border;
+}
+
+.m-disabled {
+    background-color: gray;
+    @extend %mensaje;
+    @extend %m-border;
+}
