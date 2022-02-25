@@ -14,3 +14,12 @@ $size:
 38px,
 26px,
 22px;
+
+.unboton-ok {
+    color: nth($colores, 3);
+    font-size: nth($size, 3);
+}
+
+.unboton-cancel {
+    color: nth($colores, 1);
+}

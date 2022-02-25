@@ -1,13 +1,27 @@
 /*Nesting o anidamiento*/
 /* Variables */
 /*con el uso de variables de scss dejaria de existir el :root de css*/
+/*listas*/
+.unboton-ok {
+  color: green;
+  font-size: 38px;
+}
+
+.unboton-cancel {
+  color: red;
+}
+
+/*mapas*/
+/*a diferencia de las listas, me permiten crear como una lista pero de un monton de estilos agrupados que podria usar en una seccion entera*/
 header {
-  background-color: green;
+  /*background-color: $bg-color-general;*/
+  background-color: black;
 }
 header nav ul {
   list-style: none;
 }
 header nav ul li {
+  /*list-style: circle;*/
   list-style: circle;
 }
 header nav ul li a {
@@ -16,6 +30,7 @@ header nav ul li a {
 }
 header nav ul li a:hover {
   text-decoration: none;
+  font-size: 40px;
 }
 
 .footer-niki {
@@ -26,5 +41,39 @@ header nav ul li a:hover {
 }
 
 /*listas*/
+.unboton-ok {
+  color: green;
+  font-size: 38px;
+}
+
+.unboton-cancel {
+  color: red;
+}
+
+/* Variables */
+/*con el uso de variables de scss dejaria de existir el :root de css*/
+/*colores de mi marca */
+.borde-menu {
+  border: 1px solid #330000;
+}
+
+.bg-products {
+  background-color: #090;
+}
+.bg-products:hover {
+  background-color: lime;
+}
+
+.textos {
+  color: rgba(153, 0, 0, 0.8);
+}
+
+.section-loca {
+  background-color: #4d4d00;
+}
+
+.saturado {
+  color: #990000;
+}
 
 /*# sourceMappingURL=style.css.map */

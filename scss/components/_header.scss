@@ -1,9 +1,12 @@
 /*Nesting o anidamiento*/
 
 @import "../base/variables";
+@import "../base/listas";
+@import "../base/maps";
 
 header {
-    background-color: $bg-color-general;
+    /*background-color: $bg-color-general;*/
+    background-color: map-get($header, bg-header);
     @media screen and (max-width: 768px) {
         $background-color: khaki;
     }
@@ -11,12 +14,14 @@ header {
         ul {
             list-style: none;
             li {
-                list-style: circle;
+                /*list-style: circle;*/
+                list-style: map-get($header, list);
                 a {
                     text-decoration: underline;
                     /* & sumar pseudoclases o pseudoelementos */
                     &:hover {
                         text-decoration: none;
+                        font-size: nth($size, 2);
                     }
                 }
             }
