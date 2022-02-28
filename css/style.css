@@ -132,4 +132,49 @@ header nav ul li a:hover {
   background-color: gray;
 }
 
+/*operadores -no es tan usado porque ahora css tiene una funcion que se llama calc*/
+.img-principal {
+  width: 100%;
+}
+
+/*mixin a diferencia de los extends, me permite agregar un parametro vacio al cual le voy a dar un valor en el futuro*/
+/*mixin es una especie de constructor, porque el constructor es como una especie de template de lo que vamos a necesitar pero sin los valores de las propiedades, que las vamos a definir en el futuro*/
+.animaciones {
+  background-color: green;
+  width: 100%;
+  padding: 22px;
+  border: 1px solid black;
+}
+
+.animaciones-dos {
+  background-color: blue;
+  width: 50%;
+  padding: 18px;
+  border: 6px dotted gray;
+}
+
+.magic {
+  -webkit-transform: scale(4);
+  -o-transform: scale(4);
+  -moz-transform: scale(4);
+  transform: scale(4);
+}
+
+.loca {
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.bg-condicion {
+  border: 1px solid black;
+  background-color: red;
+}
+
+.bg-nuevo {
+  border: 2px dotted gray;
+  padding: 22px;
+}
+
 /*# sourceMappingURL=style.css.map */

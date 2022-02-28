@@ -1,0 +1,33 @@
+/*mixin a diferencia de los extends, me permite agregar un parametro vacio al cual le voy a dar un valor en el futuro*/
+
+/*mixin es una especie de constructor, porque el constructor es como una especie de template de lo que vamos a necesitar pero sin los valores de las propiedades, que las vamos a definir en el futuro*/
+
+@mixin colores($color, $ancho, $relleno, $bordes) {
+    background-color: $color;
+    width: $ancho;
+    padding: $relleno;
+    border: $bordes;
+}
+
+.animaciones {
+    @include colores(green, 100%, 22px, 1px solid black);
+}
+
+.animaciones-dos {
+    @include colores(blue, 50%, 18px, 6px dotted gray);
+}
+
+@mixin prefijos($propiedad) {
+    -webkit-transform: $propiedad;
+    -o-transform: $propiedad;
+    -moz-transform: $propiedad;
+    transform: $propiedad;
+}
+
+.magic {
+    @include prefijos(scale(4));
+}
+
+.loca {
+    @include prefijos(rotate(90deg));
+}

@@ -1,0 +1,7 @@
+/*operadores -no es tan usado porque ahora css tiene una funcion que se llama calc*/
+
+$ancho-img: 50%;
+
+.img-principal {
+    width: $ancho-img *2;
+}
