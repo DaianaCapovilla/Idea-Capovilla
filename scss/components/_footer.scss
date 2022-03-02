@@ -1,6 +1,51 @@
-.footer-niki {
-    background-color: green;
+@import "../base/variables";
+
+@font-face {
+    font-family: Literata-headers;
+    src: url(../Tipografias/Literata/static/Literata/Literata-ExtraLight.ttf);
+  }
+  
+  @font-face {
+    font-family: Inter-accion;
+    src: url(../Tipografias/Inter/static/Inter-SemiBold.ttf);
+  }  
+
+@font-face {
+    font-family: Inter-parrafos;
+    src: url(../Tipografias/Inter/static/Inter-ExtraLight.ttf);
+  }
+
+.footer-cp {
+    background-color: khaki;
+    h3 {
+        // padding: $encabezado-padding;
+        color: $encabezado-color;
+        font-family: $encabezado-font;
+        font-size: $encabezado-size;
+    }
+    ul {
+        display: inline;
+        li {
+            list-style: none;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+    p {
+        font-family: "Inter-parrafos";
+    }
     i {
-        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        img {
+            align-items: center;
+            padding: 10px 0px 20px 0px;
+        }
+    }
+    .mapa {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 0px;
     }
 }
