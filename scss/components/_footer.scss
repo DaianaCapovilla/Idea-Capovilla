@@ -47,5 +47,13 @@
         display: flex;
         justify-content: flex-end;
         padding: 20px 0px;
+        /* Tablet */
+        @media screen and (max-width: 980px) and (min-width: 481px) {
+                justify-content: center;
+        }
+        /* Mobile */
+        @media screen and (max-width: 400px) {
+                justify-content: center;
+        }
     }
 }

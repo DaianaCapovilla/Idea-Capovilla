@@ -1,0 +1,51 @@
+/*botones*/
+
+$colores:
+#FFFFFF,
+#303030,
+#000000;
+
+$boton-padding:
+8px 24px;
+
+.boton-contacto {
+    padding: $boton-padding;
+    background-color: nth($colores, 1);
+    color: nth($colores, 3);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+    
+.boton-contacto:hover {
+    background-color: nth($colores, 2);
+    color: nth($colores, 1);
+} 
+
+.btn-whatsapp {
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    line-height: 70px;
+    text-align: center;
+    z-index: 999;
+    /* Tablet */
+    @media screen and (max-width: 980px) and (min-width: 481px) {
+        width: 50px;
+        height: 50px;
+        line-height: 60px;
+    }
+    /* Mobile */
+    @media screen and (max-width: 400px) {
+        width: 50px;
+        height: 50px;
+        line-height: 60px;
+    }
+}
+
+ 
