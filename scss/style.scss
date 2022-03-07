@@ -1,6 +1,9 @@
-@import "base/variables";
+@import "base/extends";
+@import "base/general";
 @import "base/listas";
+@import "base/maps";
+@import "base/variables";
+@import "components/footer";
 @import "components/hero";
 @import "components/servicios";
 @import "components/sobremi";
-@import "components/footer";

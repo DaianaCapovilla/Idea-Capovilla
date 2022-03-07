@@ -1,4 +1,24 @@
-/*encabezados*/
+.footer-cp .copyright, .footer-cp i {
+  display: flex;
+  justify-content: center;
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Generales */
+html {
+  scroll-behavior: smooth;
+}
+
+.disclaimer {
+  display: none;
+}
+
 /*botones*/
 .boton-contacto {
   padding: 8px 24px;
@@ -41,6 +61,71 @@
     width: 50px;
     height: 50px;
     line-height: 60px;
+  }
+}
+
+/*encabezados*/
+/*encabezados*/
+.footer-cp .copyright, .footer-cp i {
+  display: flex;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: Literata-headers;
+  src: url(../Tipografias/Literata/static/Literata/Literata-ExtraLight.ttf);
+}
+@font-face {
+  font-family: Inter-accion;
+  src: url(../Tipografias/Inter/static/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: Inter-parrafos;
+  src: url(../Tipografias/Inter/static/Inter-ExtraLight.ttf);
+}
+.footer-cp {
+  background-color: khaki;
+}
+.footer-cp h3 {
+  color: #2f4f4f;
+  font-family: "Literata-headers";
+  font-size: 30px;
+}
+.footer-cp ul {
+  display: inline;
+}
+.footer-cp ul li {
+  list-style: none;
+}
+.footer-cp ul li a {
+  text-decoration: none;
+}
+.footer-cp p {
+  font-family: "Inter-parrafos";
+}
+.footer-cp i img {
+  align-items: center;
+  padding: 10px 0px 20px 0px;
+}
+.footer-cp .copyright {
+  font-family: "Inter-parrafos";
+  font-size: 14px;
+}
+.footer-cp .mapa {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0px;
+  /* Tablet */
+  /* Mobile */
+}
+@media screen and (max-width: 980px) and (min-width: 481px) {
+  .footer-cp .mapa {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer-cp .mapa {
+    justify-content: center;
   }
 }
 
@@ -145,70 +230,11 @@ p {
 }
 
 .vermas {
-  background-color: hsl(150, 2%, 17%);
+  background-color: #2a2c2b;
 }
 
 .vermas:hover {
   background-color: #717771;
-}
-
-/*encabezados*/
-@font-face {
-  font-family: Literata-headers;
-  src: url(../Tipografias/Literata/static/Literata/Literata-ExtraLight.ttf);
-}
-@font-face {
-  font-family: Inter-accion;
-  src: url(../Tipografias/Inter/static/Inter-SemiBold.ttf);
-}
-@font-face {
-  font-family: Inter-parrafos;
-  src: url(../Tipografias/Inter/static/Inter-ExtraLight.ttf);
-}
-.footer-cp {
-  background-color: khaki;
-}
-.footer-cp h3 {
-  color: #2f4f4f;
-  font-family: "Literata-headers";
-  font-size: 30px;
-}
-.footer-cp ul {
-  display: inline;
-}
-.footer-cp ul li {
-  list-style: none;
-}
-.footer-cp ul li a {
-  text-decoration: none;
-}
-.footer-cp p {
-  font-family: "Inter-parrafos";
-}
-.footer-cp i {
-  display: flex;
-  justify-content: center;
-}
-.footer-cp i img {
-  align-items: center;
-  padding: 10px 0px 20px 0px;
-}
-.footer-cp .mapa {
-  display: flex;
-  justify-content: flex-end;
-  padding: 20px 0px;
-  /* Tablet */
-  /* Mobile */
-}
-@media screen and (max-width: 980px) and (min-width: 481px) {
-  .footer-cp .mapa {
-    justify-content: center;
-  }
-}
-@media screen and (max-width: 400px) {
-  .footer-cp .mapa {
-    justify-content: center;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
