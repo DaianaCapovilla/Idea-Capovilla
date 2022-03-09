@@ -18,10 +18,10 @@
   }
 
 .footer-cp {
-    background-color: red;
+    background-color: black;
     h3 {
         // padding: $encabezado-padding;
-        color: $encabezado-color;
+        color: nth($colores, 1);
         font-family: $encabezado-font;
         font-size: $encabezado-size;
     }
@@ -30,13 +30,23 @@
         li {
             list-style: none;
             a {
+                display: flex;
+                align-items: center;
                 text-decoration: none;
+                color: nth($colores, 1);
+                font-size: 18px;
+                &:hover {
+                    font-size: 22px;
+                    color: aqua;
+                }
+                p {
+                    font-family: "Inter-parrafos";
+                    padding: 14px 0px 0px 20px;
+                }
             }
         }
     }
-    p {
-        font-family: "Inter-parrafos";
-    }
+    
     i {
         @extend %disposicion;
         img {
@@ -47,6 +57,7 @@
     .copyright {
         @extend %disposicion;
         font-family: "Inter-parrafos";
+        color: nth($colores, 1);
         font-size: 14px;
     }
     .mapa {
