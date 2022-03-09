@@ -17,11 +17,6 @@ $boton-padding:
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-    
-.boton-contacto:hover {
-    background-color: nth($colores, 2);
-    color: nth($colores, 1);
-} 
 
 .btn-whatsapp {
     display: block;

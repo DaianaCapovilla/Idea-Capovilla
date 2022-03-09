@@ -1,5 +1,6 @@
 @import "../base/variables";
 @import "../base/extends";
+@import "../base/listas";
 
 @font-face {
     font-family: Literata-headers;
@@ -17,7 +18,7 @@
   }
 
 .footer-cp {
-    background-color: khaki;
+    background-color: red;
     h3 {
         // padding: $encabezado-padding;
         color: $encabezado-color;
