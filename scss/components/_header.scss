@@ -1,0 +1,62 @@
+.p-header-carousel {
+    font-family: 'Marcellus', serif;
+    font-size: 12;
+    color: white;
+}
+
+.nav-tipo {
+    font-family: 'Marcellus', serif;
+    /*puse important porque desde inspeccionar no encontré como modificar el padding por defecto de bootstrap*/
+    margin: 1.5rem !important;
+}
+
+/* Sidebar en el carousel*/
+.redes-carousel {
+    height: 900px;
+    width: 210px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 100px;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.7);
+    overflow-x: hidden;
+    padding-top: 100px;
+  }
+  
+  /* Style sidebar links */
+  .redes-carousel a {
+    transform: rotate(-90deg);
+    padding: 80px 8px 80px 16px;
+    font-family: 'Marcellus', serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* Style links on mouse-over */
+  .redes-carousel a:hover {
+    color: #f1f1f1;
+    text-decoration: underline;
+  }
+  
+  /* Style the main content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-height: 450px) {
+    .redes-carousel {padding-top: 15px;}
+    .redes-carousel a {font-size: 18px;}
+  }
+
+.h2-centrado {
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Marcellus', serif;
+}

@@ -1,9 +1,11 @@
+@import "../base/tipografias";
+
 .container {
     padding: 20px 0px;
     }
     
-    h1, h2 {
-      font-family: "Literata-headers";
+    h1, h2, h3 {
+      font-family: 'Marcellus', serif;
       font-size: $encabezado-size;
       font-weight: $encabezado-weight;
       color: $encabezado-color;
@@ -25,7 +27,7 @@
       height: auto;
       transition: .5s ease;
       backface-visibility: hidden;
-      box-shadow: 0 10px 20px rgb(77, 77, 77);
+      box-shadow: 0 8px 12px rgb(121, 121, 121);
     }
     
     .probandoverlay {

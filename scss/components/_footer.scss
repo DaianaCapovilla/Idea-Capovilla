@@ -1,11 +1,6 @@
 @import "../base/variables";
 @import "../base/extends";
 @import "../base/listas";
-
-@font-face {
-    font-family: Literata-headers;
-    src: url(../Tipografias/Literata/static/Literata/Literata-ExtraLight.ttf);
-  }
   
   @font-face {
     font-family: Inter-accion;
@@ -22,7 +17,7 @@
     h3 {
         // padding: $encabezado-padding;
         color: nth($colores, 1);
-        font-family: $encabezado-font;
+        font-family: 'Marcellus', serif;
         font-size: $encabezado-size;
     }
     ul {
