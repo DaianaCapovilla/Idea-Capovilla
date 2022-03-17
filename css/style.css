@@ -251,14 +251,16 @@ h4 {
   font-family: "Marcellus", serif;
 }
 
+.bordes-proyectos {
+  border-radius: 2%;
+}
+
 .container {
   padding: 20px 0px;
 }
 
 h1, h2, h3 {
   font-family: "Marcellus", serif;
-  font-size: 30px;
-  font-weight: 200px;
   color: #2f4f4f;
 }
 
@@ -307,17 +309,15 @@ body, html {
   padding: 16px 32px;
 }
 
-h3 {
-  color: var(--color);
-  font-family: "Literata-headers";
-  font-size: 24px;
-}
-
 p {
   font-family: "Inter-parrafos";
 }
 
 /*Boton de ver mas */
+.pic-sobremi {
+  border-radius: 50%;
+}
+
 .caja-boton {
   display: flex;
   justify-content: flex-end;

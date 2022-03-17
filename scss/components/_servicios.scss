@@ -6,8 +6,8 @@
     
     h1, h2, h3 {
       font-family: 'Marcellus', serif;
-      font-size: $encabezado-size;
-      font-weight: $encabezado-weight;
+      // font-size: $encabezado-size;
+      // font-weight: $encabezado-weight;
       color: $encabezado-color;
     }
     
@@ -54,12 +54,6 @@
       color: white;
       font-size: 16px;
       padding: 16px 32px;
-    }
-    
-    h3 {
-      color: var(--color);
-      font-family: "Literata-headers";
-      font-size: 24px;
     }
     
     p {
