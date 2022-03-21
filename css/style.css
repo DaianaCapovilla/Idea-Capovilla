@@ -1,6 +1,8 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
 .footer-cp .copyright, .footer-cp i {
   display: flex;
   justify-content: center;
@@ -119,21 +121,13 @@ html {
   }
 }
 
-@font-face {
-  font-family: Inter-accion;
-  src: url(../Tipografias/Inter/static/Inter-SemiBold.ttf);
-}
-@font-face {
-  font-family: Inter-parrafos;
-  src: url(../Tipografias/Inter/static/Inter-ExtraLight.ttf);
-}
 .footer-cp {
   background-color: black;
 }
 .footer-cp h3 {
   color: #FFFFFF;
   font-family: "Marcellus", serif;
-  font-size: 30px;
+  font-size: 24px;
 }
 .footer-cp ul {
   display: inline;
@@ -153,7 +147,7 @@ html {
   color: aqua;
 }
 .footer-cp ul li a p {
-  font-family: "Inter-parrafos";
+  font-family: "Inter", sans-serif;
   padding: 14px 0px 0px 20px;
 }
 .footer-cp i img {
@@ -161,7 +155,7 @@ html {
   padding: 10px 0px 20px 0px;
 }
 .footer-cp .copyright {
-  font-family: "Inter-parrafos";
+  font-family: "Inter", sans-serif;
   color: #FFFFFF;
   font-size: 14px;
 }
@@ -318,6 +312,11 @@ p {
   margin: 20px;
 }
 
+.p-sobremi {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
 /*Boton de ver mas */
 .caja-boton {
   display: flex;
@@ -329,7 +328,7 @@ p {
   color: white;
   padding: 14px 28px;
   font-size: 16px;
-  font-family: "Inter-accion";
+  font-family: "Inter", sans-serif;
   cursor: pointer;
 }
 

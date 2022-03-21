@@ -2,23 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/*Tipografias*/
-
-@font-face {
-  font-family: Literata-headers;
-  src: url(../Tipografias/Literata/static/Literata/Literata-ExtraLight.ttf);
-}
-
-@font-face {
-  font-family: Inter-accion;
-  src: url(../Tipografias/Inter/static/Inter-SemiBold.ttf);
-}
-
-@font-face {
-  font-family: Inter-parrafos;
-  src: url(../Tipografias/Inter/static/Inter-ExtraLight.ttf);
-}
-
 /*Variables*/
 
 :root {

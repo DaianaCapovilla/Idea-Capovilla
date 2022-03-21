@@ -1,6 +1,13 @@
+@import "../base/tipografias";
+
 .pic-sobremi {
   border-radius: 50%;
   margin: 20px;
+}
+
+.p-sobremi {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 /*Boton de ver mas */
@@ -15,7 +22,7 @@
     color: white;
     padding: 14px 28px;
     font-size: 16px;
-    font-family: "Inter-accion";
+    font-family: 'Inter', sans-serif;
     cursor: pointer;
   }
   
