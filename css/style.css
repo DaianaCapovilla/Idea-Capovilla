@@ -129,6 +129,10 @@ html {
   font-family: "Marcellus", serif;
   font-size: 24px;
 }
+.footer-cp .redes-sobremi {
+  display: inline;
+  color: white;
+}
 .footer-cp ul {
   display: inline;
 }
@@ -309,7 +313,6 @@ p {
 
 .pic-sobremi {
   border-radius: 50%;
-  margin: 20px;
 }
 
 .p-sobremi {
