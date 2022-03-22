@@ -124,61 +124,39 @@ html {
 .footer-cp {
   background-color: black;
 }
+.footer-cp a {
+  color: white;
+}
 .footer-cp h3 {
+  text-align: center;
   color: #FFFFFF;
   font-family: "Marcellus", serif;
   font-size: 24px;
-}
-.footer-cp .redes-sobremi {
-  display: inline;
-  color: white;
-}
-.footer-cp ul {
-  display: inline;
 }
 .footer-cp ul li {
   list-style: none;
 }
 .footer-cp ul li a {
-  display: flex;
-  align-items: center;
   text-decoration: none;
   color: #FFFFFF;
-  font-size: 18px;
+  font-size: 16px;
 }
 .footer-cp ul li a:hover {
-  font-size: 22px;
-  color: aqua;
+  font-size: 18px;
+  text-decoration: underline;
+  color: white;
 }
 .footer-cp ul li a p {
+  display: inline;
   font-family: "Inter", sans-serif;
-  padding: 14px 0px 0px 20px;
 }
 .footer-cp i img {
   align-items: center;
-  padding: 10px 0px 20px 0px;
 }
 .footer-cp .copyright {
   font-family: "Inter", sans-serif;
   color: #FFFFFF;
   font-size: 14px;
-}
-.footer-cp .mapa {
-  display: flex;
-  justify-content: flex-end;
-  padding: 20px 0px;
-  /* Tablet */
-  /* Mobile */
-}
-@media screen and (max-width: 980px) and (min-width: 481px) {
-  .footer-cp .mapa {
-    justify-content: center;
-  }
-}
-@media screen and (max-width: 400px) {
-  .footer-cp .mapa {
-    justify-content: center;
-  }
 }
 
 .p-header-carousel {
@@ -251,6 +229,11 @@ h4 {
 
 .bordes-proyectos {
   border-radius: 2%;
+}
+
+.typo-proyectos {
+  font-family: "Marcellus", serif;
+  font-size: 16px;
 }
 
 .container {
@@ -331,7 +314,7 @@ p {
   color: white;
   padding: 14px 28px;
   font-size: 16px;
-  font-family: "Inter", sans-serif;
+  font-family: "Marcellus", sans-serif;
   cursor: pointer;
 }
 

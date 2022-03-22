@@ -5,42 +5,38 @@
 
 .footer-cp {
     background-color: black;
+    a {
+        color: white;
+    }
     h3 {
+        text-align: center;
         color: nth($colores, 1);
         font-family: 'Marcellus', serif;
         font-size: 24px;
     }
-    .redes-sobremi {
-        display: inline;
-        color: white;
-    }
     ul {
-        display: inline;
         li {
-            list-style: none;
+            list-style: none;    
             a {
-                display: flex;
-                align-items: center;
                 text-decoration: none;
                 color: nth($colores, 1);
-                font-size: 18px;
+                font-size: 16px;
                 &:hover {
-                    font-size: 22px;
-                    color: aqua;
+                    font-size: 18px;
+                    text-decoration: underline;
+                    color: white;
                 }
                 p {
+                    display: inline;
                     font-family: 'Inter', sans-serif;
-                    padding: 14px 0px 0px 20px;
                 }
             }
         }
     }
-    
     i {
         @extend %disposicion;
         img {
             align-items: center;
-            padding: 10px 0px 20px 0px;
         }
     }
     .copyright {
@@ -48,18 +44,5 @@
         font-family: 'Inter', sans-serif;
         color: nth($colores, 1);
         font-size: 14px;
-    }
-    .mapa {
-        display: flex;
-        justify-content: flex-end;
-        padding: 20px 0px;
-        /* Tablet */
-        @media screen and (max-width: 980px) and (min-width: 481px) {
-                justify-content: center;
-        }
-        /* Mobile */
-        @media screen and (max-width: 400px) {
-                justify-content: center;
-        }
     }
 }
