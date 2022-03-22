@@ -1,0 +1,171 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*Variables*/
+
+:root {
+  /*Encabezados*/
+  --size: 40px;
+  --weight: 200px;
+  --color: #2f4f4f;
+  --padding: 30px;
+}
+
+.boton-contacto {
+  padding: 8px 24px;
+  background-color: #FFFFFF;
+  color: #000000;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+  
+.boton-contacto:hover {
+  background-color: #303030;
+  color: #FFFFFF;
+}
+
+/* Hero */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/probando-foto.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  }
+
+/*Boton de whats app*/
+.btn-whatsapp {
+  display: block;
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
+/*main*/
+
+.container {
+padding: 20px 0px;
+}
+
+h1, h2 {
+  font-family: "Literata-headers";
+  font-size: var(--size);
+  font-weight: var(--weight);
+  color: var(--color);
+  /* padding: 20px 0px; */
+}
+
+body, html {
+  height: 100%;
+}
+
+/*overlay*/
+.serv-contenedor {
+  position: relative;
+}
+
+.pic-serv {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  box-shadow: 0 10px 20px rgb(77, 77, 77);
+}
+
+.probandoverlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.serv-contenedor:hover .pic-serv {
+  opacity: 0.3;
+}
+
+.serv-contenedor:hover .probandoverlay {
+  opacity: 1;
+}
+
+.textoverlay {
+  background-color: #111312;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+h3 {
+  color: var(--color);
+  font-family: "Literata-headers";
+  font-size: 24px;
+}
+
+p {
+  font-family: "Inter-parrafos";
+}
+
+/*Boton de ver mas */
+
+.caja-boton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.botoncito {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-family: "Inter-accion";
+  cursor: pointer;
+}
+
+.vermas {
+  background-color: hsl(150, 2%, 17%);
+}
+
+.vermas:hover {
+  background-color: #717771;
+}
+
+/*Footer*/
+/* 
+#contacto {
+  background-color: rgb(165, 165, 165);
+}
+
+.mapa {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+i {
+  display: flex;
+  justify-content: center;
+} */

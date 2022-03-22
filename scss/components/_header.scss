@@ -12,28 +12,20 @@
 
 /* Sidebar en el carousel*/
 .redes-carousel {
-    height: 900px;
-    width: 210px;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 100px;
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.7);
-    overflow-x: hidden;
-    padding-top: 100px;
+  height: 900px;
+  width: 210px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 100px;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.7);
+  overflow-x: hidden;
+  padding-top: 100px;
+  @media screen and (max-width: 980px) {
+    display: none;
   }
-
-  @media screen and (max-width: 980px) and (min-width: 481px) {
-    .redes-carousel {
-      display: none;
-    }
-  }
-  @media screen and (max-width: 400px) {
-    .redes-carousel {
-      display: none;
-    }
-  }
+}
   
   /* Style sidebar links */
   .redes-carousel a {
