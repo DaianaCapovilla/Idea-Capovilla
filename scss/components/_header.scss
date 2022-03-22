@@ -23,6 +23,17 @@
     overflow-x: hidden;
     padding-top: 100px;
   }
+
+  @media screen and (max-width: 980px) and (min-width: 481px) {
+    .redes-carousel {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .redes-carousel {
+      display: none;
+    }
+  }
   
   /* Style sidebar links */
   .redes-carousel a {
