@@ -50,25 +50,11 @@
     padding: 0px 10px;
   }
   
-  // /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-  // @media screen and (max-height: 450px) {
-  //   .redes-carousel {padding-top: 15px;}
-  //   .redes-carousel a {font-size: 18px;}
-  // }
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-height: 450px) {
+    .redes-carousel {padding-top: 15px;}
+    .redes-carousel a {font-size: 18px;}
+  }
 
-.h2-centrado {
-    text-align: center;
-}
 
-h4 {
-    font-family: 'Marcellus', serif;
-}
 
-.bordes-proyectos {
-  border-radius: 2%;
-}
-
-.typo-proyectos{
-  font-family: 'Marcellus', serif;
-  font-size: 16px;
-}

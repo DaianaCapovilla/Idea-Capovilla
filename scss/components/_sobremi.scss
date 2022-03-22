@@ -1,5 +1,12 @@
 @import "../base/tipografias";
 
+.div-sobremi {
+  @media screen and (max-width: 980px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .pic-sobremi {
   border-radius: 50%;
 }

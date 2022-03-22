@@ -232,15 +232,55 @@ h4 {
   font-family: "Marcellus", serif;
 }
 
-.bordes-proyectos {
-  border-radius: 2%;
-}
-
 .typo-proyectos {
   font-family: "Marcellus", serif;
   font-size: 16px;
 }
 
+.clase-proyectos {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.primerfotoproyecto {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  border-radius: 2%;
+}
+.primertextoproyectos {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.segundotextoproyectoscontainer {
+  display: flex;
+  align-items: center;
+}
+
+.segundafotoproyecto {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  border-radius: 2%;
+}
+.segundotextoproyectos {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.tercertextoproyectoscontainer {
+  display: flex;
+  align-items: flex-end;
+}
+
+.tercerafotoproyecto {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  border-radius: 2%;
+}
+.tercertextoproyectos {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
 .container {
   padding: 20px 0px;
 }
@@ -257,6 +297,11 @@ body, html {
 /*overlay*/
 .serv-contenedor {
   position: relative;
+}
+@media screen and (max-width: 980px) {
+  .serv-contenedor {
+    padding-bottom: 20px;
+  }
 }
 
 .pic-serv {
@@ -297,6 +342,13 @@ body, html {
 
 p {
   font-family: "Inter-parrafos";
+}
+
+@media screen and (max-width: 980px) {
+  .div-sobremi {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .pic-sobremi {
