@@ -1,6 +1,5 @@
 .h2-centrado {
   text-align: center;
-  padding-bottom: 20px;
 }
 
 .row-proyectos {
@@ -13,6 +12,9 @@
 
 h4 {
     font-family: 'Marcellus', serif;
+    @media screen and (max-width: 980px) {
+      padding-top: 20px;
+    }
 }
 
 .typo-proyectos{

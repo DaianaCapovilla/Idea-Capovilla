@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
-.footer-cp .copyright, .footer-cp i {
+.footer-cp .copyright {
   display: flex;
   justify-content: center;
 }
@@ -71,7 +71,7 @@ html {
 
 /*encabezados*/
 /*encabezados*/
-.footer-cp .copyright, .footer-cp i {
+.footer-cp .copyright {
   display: flex;
   justify-content: center;
 }
@@ -122,45 +122,66 @@ html {
 }
 
 .footer-cp {
+  margin-top: 20px;
   background-color: black;
 }
-.footer-cp a {
-  color: white;
-}
 .footer-cp h3 {
-  text-align: center;
   color: #FFFFFF;
-  font-family: "Marcellus", serif;
-  font-size: 24px;
 }
-.footer-cp .footer-icon {
-  margin-right: 20px;
+@media screen and (max-width: 980px) {
+  .footer-cp h3 {
+    padding-top: 20px;
+  }
+}
+.footer-cp .logo-contacto {
+  font-size: 40px;
+  color: #FFFFFF;
+  margin: 20px;
+}
+@media screen and (max-width: 980px) {
+  .footer-cp .logo-contacto {
+    font-size: 32px;
+  }
+}
+.footer-cp .logo-contacto:hover {
+  font-size: 48px;
+  color: #303030;
+}
+.footer-cp ul {
+  padding: 0px;
 }
 .footer-cp ul li {
   list-style: none;
+  padding: 8px 0px;
 }
 .footer-cp ul li a {
   text-decoration: none;
   color: #FFFFFF;
-  font-size: 16px;
 }
 .footer-cp ul li a:hover {
-  font-size: 18px;
-  text-decoration: underline;
-  color: white;
+  color: #303030;
 }
 .footer-cp ul li a p {
   display: inline;
   font-family: "Inter", sans-serif;
+  padding-left: 8px;
 }
-.footer-cp i img {
-  align-items: center;
+@media screen and (max-width: 980px) {
+  .footer-cp .div-pic-footer {
+    padding: 20px;
+  }
 }
 .footer-cp .copyright {
-  padding-top: 20px;
   font-family: "Inter", sans-serif;
-  color: #FFFFFF;
   font-size: 14px;
+  color: #303030;
+  padding-top: 20px;
+}
+@media screen and (max-width: 980px) {
+  .footer-cp .copyright {
+    text-align: center;
+    padding-bottom: 20px;
+  }
 }
 
 .p-header-carousel {
@@ -178,7 +199,7 @@ html {
 /* Sidebar en el carousel*/
 .redes-carousel {
   height: 100%;
-  width: 210px;
+  width: 220px;
   position: absolute;
   z-index: 1;
   top: 0;
@@ -220,7 +241,6 @@ html {
 
 .h2-centrado {
   text-align: center;
-  padding-bottom: 20px;
 }
 
 .row-proyectos {
@@ -234,6 +254,11 @@ html {
 h4 {
   font-family: "Marcellus", serif;
 }
+@media screen and (max-width: 980px) {
+  h4 {
+    padding-top: 20px;
+  }
+}
 
 .typo-proyectos {
   font-family: "Marcellus", serif;
@@ -242,6 +267,11 @@ h4 {
 
 .container {
   padding: 20px 0px;
+}
+@media screen and (max-width: 980px) {
+  .container {
+    padding: 0px 20px;
+  }
 }
 
 h1, h2, h3 {
@@ -256,7 +286,6 @@ body, html {
 /*overlay*/
 .serv-contenedor {
   position: relative;
-  padding-bottom: 20px;
 }
 @media screen and (max-width: 980px) {
   .serv-contenedor {
@@ -302,6 +331,15 @@ body, html {
 
 p {
   font-family: "Inter-parrafos";
+}
+
+.servicios-container {
+  padding: 60px 0px;
+}
+@media screen and (max-width: 980px) {
+  .servicios-container {
+    padding: 40px 20px;
+  }
 }
 
 @media screen and (max-width: 980px) {

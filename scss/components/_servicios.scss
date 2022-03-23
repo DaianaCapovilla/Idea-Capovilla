@@ -2,6 +2,9 @@
 
 .container {
     padding: 20px 0px;
+      @media screen and (max-width: 980px) {
+        padding: 0px 20px;
+      }
     }
     
     h1, h2, h3 {
@@ -16,7 +19,6 @@
     /*overlay*/
     .serv-contenedor {
       position: relative;
-      padding-bottom: 20px;
       @media screen and (max-width: 980px) {
         padding-bottom: 20px;
       }
@@ -61,4 +63,11 @@
     
     p {
       font-family: "Inter-parrafos";
+    }
+
+    .servicios-container {
+      padding: 60px 0px;
+      @media screen and (max-width: 980px) {
+        padding: 40px 20px;
+      }
     }
