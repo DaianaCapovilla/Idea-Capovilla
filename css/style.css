@@ -133,6 +133,9 @@ html {
   font-family: "Marcellus", serif;
   font-size: 24px;
 }
+.footer-cp .footer-icon {
+  margin-right: 20px;
+}
 .footer-cp ul li {
   list-style: none;
 }
@@ -154,6 +157,7 @@ html {
   align-items: center;
 }
 .footer-cp .copyright {
+  padding-top: 20px;
   font-family: "Inter", sans-serif;
   color: #FFFFFF;
   font-size: 14px;
@@ -174,14 +178,15 @@ html {
 /* Sidebar en el carousel*/
 .redes-carousel {
   height: 100%;
-  width: 80px;
+  width: 210px;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   top: 0;
+  left: 100px;
   background: black;
   background: rgba(0, 0, 0, 0.8);
   overflow-x: hidden;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 @media screen and (max-width: 980px) {
   .redes-carousel {
@@ -213,16 +218,6 @@ html {
   padding: 0px 10px;
 }
 
-/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-@media screen and (max-height: 450px) {
-  .redes-carousel {
-    padding-top: 15px;
-  }
-
-  .redes-carousel a {
-    font-size: 18px;
-  }
-}
 .h2-centrado {
   text-align: center;
 }
@@ -296,6 +291,7 @@ body, html {
 /*overlay*/
 .serv-contenedor {
   position: relative;
+  padding-bottom: 20px;
 }
 @media screen and (max-width: 980px) {
   .serv-contenedor {
@@ -354,7 +350,14 @@ p {
   border-radius: 50%;
 }
 
+@media screen and (max-width: 980px) {
+  .h3-sobremi {
+    padding-top: 20px;
+  }
+}
+
 .p-sobremi {
+  padding-top: 10px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }

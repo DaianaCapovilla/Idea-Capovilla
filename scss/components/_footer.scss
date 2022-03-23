@@ -14,9 +14,12 @@
         font-family: 'Marcellus', serif;
         font-size: 24px;
     }
+    .footer-icon {
+        margin-right: 20px;
+    }
     ul {
         li {
-            list-style: none;  
+            list-style: none; 
             a {
                 text-decoration: none;
                 color: nth($colores, 1);
@@ -41,6 +44,7 @@
     }
     .copyright {
         @extend %disposicion;
+        padding-top: 20px;
         font-family: 'Inter', sans-serif;
         color: nth($colores, 1);
         font-size: 14px;

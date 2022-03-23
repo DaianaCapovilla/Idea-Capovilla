@@ -11,7 +11,14 @@
   border-radius: 50%;
 }
 
+.h3-sobremi {
+  @media screen and (max-width: 980px) {
+    padding-top: 20px;
+  }
+}
+
 .p-sobremi {
+  padding-top: 10px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
 }

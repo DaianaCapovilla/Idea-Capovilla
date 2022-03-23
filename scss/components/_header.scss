@@ -6,21 +6,22 @@
 
 .nav-tipo {
     font-family: 'Marcellus', serif;
+    /*puse important porque desde inspeccionar no encontré como modificar el padding por defecto de bootstrap*/
     margin: 1.5rem !important;
 }
 
 /* Sidebar en el carousel*/
 .redes-carousel {
   height: 100%;
-  width: 80px;
+  width: 210px;
   position: absolute;
   z-index: 1;
   top: 0;
-  // left: 100px;
+  left: 100px;
   background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.8);
   overflow-x: hidden;
-  padding-top: 100px;
+  padding-top: 200px;
   @media screen and (max-width: 980px) {
     display: none;
   }
@@ -49,11 +50,7 @@
     padding: 0px 10px;
   }
   
-  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-  @media screen and (max-height: 450px) {
-    .redes-carousel {padding-top: 15px;}
-    .redes-carousel a {font-size: 18px;}
-  }
+
 
 
 

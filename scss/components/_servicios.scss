@@ -6,8 +6,6 @@
     
     h1, h2, h3 {
       font-family: 'Marcellus', serif;
-      // font-size: $encabezado-size;
-      // font-weight: $encabezado-weight;
       color: $encabezado-color;
     }
     
@@ -18,6 +16,7 @@
     /*overlay*/
     .serv-contenedor {
       position: relative;
+      padding-bottom: 20px;
       @media screen and (max-width: 980px) {
         padding-bottom: 20px;
       }
