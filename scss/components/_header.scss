@@ -6,7 +6,6 @@
 
 .nav-tipo {
     font-family: 'Marcellus', serif;
-    /*puse important porque desde inspeccionar no encontré como modificar el padding por defecto de bootstrap*/
     margin: 1.5rem !important;
 }
 
@@ -15,7 +14,7 @@
   height: 100%;
   width: 80px;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   top: 0;
   // left: 100px;
   background: rgb(0, 0, 0); 
