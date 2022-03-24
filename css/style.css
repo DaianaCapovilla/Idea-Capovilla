@@ -70,6 +70,19 @@ html {
 }
 
 /*encabezados*/
+.div-error {
+  padding: 200px 0px 20px 0px;
+}
+
+.div-ghost {
+  display: flex;
+  justify-content: center;
+}
+
+.pic-ghost-error {
+  padding: 20px;
+}
+
 /*encabezados*/
 .footer-cp .copyright {
   display: flex;
