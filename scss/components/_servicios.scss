@@ -1,3 +1,5 @@
+/* Sección servicios */
+
 @import "../base/tipografias";
 
 .container {
@@ -8,7 +10,7 @@
     }
     
     h1, h2, h3 {
-      font-family: 'Marcellus', serif;
+      font-family: $tipografia1;
       color: $encabezado-color;
     }
     
@@ -19,6 +21,7 @@
     /*overlay*/
     .serv-contenedor {
       position: relative;
+      padding-top: 20px;
       @media screen and (max-width: 980px) {
         padding-bottom: 20px;
       }

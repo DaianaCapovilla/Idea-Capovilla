@@ -1,11 +1,8 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
-.footer-cp .copyright, .div-ghost {
-  display: flex;
-  justify-content: center;
-}
 
 /* Reset */
 * {
@@ -21,6 +18,11 @@ html {
 
 .disclaimer {
   display: none;
+}
+
+.footer-cp .copyright, .div-ghost {
+  display: flex;
+  justify-content: center;
 }
 
 /*botones*/
@@ -69,6 +71,7 @@ html {
 }
 
 /*encabezados*/
+/* Página 404 */
 .footer-cp .copyright, .div-ghost {
   display: flex;
   justify-content: center;
@@ -77,11 +80,17 @@ html {
 .div-error {
   padding: 200px 0px 20px 0px;
 }
+@media screen and (max-width: 980px) {
+  .div-error {
+    padding: 100px 0px 20px 0px;
+  }
+}
 
 .pic-ghost-error {
   padding: 20px;
 }
 
+/* Footer */
 /*encabezados*/
 .footer-cp .copyright, .div-ghost {
   display: flex;
@@ -196,6 +205,7 @@ html {
   }
 }
 
+/* Header */
 .p-header-carousel {
   font-family: "Marcellus", serif;
   font-size: 12;
@@ -207,13 +217,14 @@ html {
   margin: 1.5rem !important;
 }
 
+/* Sección proyectos */
 /*encabezados*/
 .h2-centrado {
   text-align: center;
 }
 
 .row-proyectos {
-  padding-bottom: 20px;
+  padding: 20px 0px;
 }
 
 .bordes-proyectos {
@@ -234,6 +245,7 @@ h4 {
   font-size: 18px;
 }
 
+/* Sección servicios */
 .container {
   padding: 20px 0px;
 }
@@ -255,6 +267,7 @@ body, html {
 /*overlay*/
 .serv-contenedor {
   position: relative;
+  padding-top: 20px;
 }
 @media screen and (max-width: 980px) {
   .serv-contenedor {

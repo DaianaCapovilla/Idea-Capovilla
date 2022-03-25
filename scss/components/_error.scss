@@ -1,7 +1,12 @@
+/* Página 404 */
+
 @import "../base/extends";
 
 .div-error {
     padding: 200px 0px 20px 0px;
+    @media screen and (max-width: 980px) {
+        padding: 100px 0px 20px 0px;
+    }
 }
 
 .div-ghost {
