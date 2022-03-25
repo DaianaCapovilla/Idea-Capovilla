@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
-.footer-cp .copyright {
+.footer-cp .copyright, .div-ghost {
   display: flex;
   justify-content: center;
 }
@@ -69,13 +69,13 @@ html {
 }
 
 /*encabezados*/
-.div-error {
-  padding: 200px 0px 20px 0px;
-}
-
-.div-ghost {
+.footer-cp .copyright, .div-ghost {
   display: flex;
   justify-content: center;
+}
+
+.div-error {
+  padding: 200px 0px 20px 0px;
 }
 
 .pic-ghost-error {
@@ -83,7 +83,7 @@ html {
 }
 
 /*encabezados*/
-.footer-cp .copyright {
+.footer-cp .copyright, .div-ghost {
   display: flex;
   justify-content: center;
 }
@@ -207,6 +207,7 @@ html {
   margin: 1.5rem !important;
 }
 
+/*encabezados*/
 .h2-centrado {
   text-align: center;
 }

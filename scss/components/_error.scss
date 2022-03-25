@@ -1,10 +1,11 @@
+@import "../base/extends";
+
 .div-error {
     padding: 200px 0px 20px 0px;
 }
 
 .div-ghost {
-    display: flex;
-    justify-content: center;
+    @extend %disposicion;
 }
 
 .pic-ghost-error {

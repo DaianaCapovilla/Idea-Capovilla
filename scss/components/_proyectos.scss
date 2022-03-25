@@ -1,3 +1,5 @@
+@import "../base/variables";
+
 .h2-centrado {
   text-align: center;
 }
@@ -11,13 +13,13 @@
 }
 
 h4 {
-    font-family: 'Marcellus', serif;
+    font-family: $tipografia1;
     @media screen and (max-width: 980px) {
       padding-top: 20px;
     }
 }
 
 .typo-proyectos{
-  font-family: 'Marcellus', serif;
+  font-family: $tipografia1;
   font-size: 18px;
 }
