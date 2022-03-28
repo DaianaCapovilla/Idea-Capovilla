@@ -58,14 +58,14 @@
     }
     
     .textoverlay {
-      background-color: #111312;
-      color: white;
+      background-color: nth($colores, 3);
+      color: nth($colores, 1);
       font-size: 16px;
       padding: 16px 32px;
     }
     
     p {
-      font-family: "Inter-parrafos";
+      font-family: $tipografia2;
     }
 
     .servicios-container {
