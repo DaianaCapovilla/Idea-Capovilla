@@ -32,14 +32,7 @@
     }
     
     .pic-serv {
-      opacity: 1;
-      display: block;
-      width: 100%;
-      height: auto;
-      transition: .5s ease;
-      backface-visibility: hidden;
-      box-shadow: 0 8px 12px rgb(121, 121, 121);
-  
+      @include overlay(1, block, 100%, auto, .5s ease, hidden, 0 8px 12px rgb(121, 121, 121))  
     }
     
     .probandoverlay {

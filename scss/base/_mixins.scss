@@ -1,0 +1,9 @@
+@mixin overlay ($opacity, $display, $width, $height, $transition, $backface-visibility, $box-shadow) {
+    opacity: $opacity;
+    display: $display;
+    width: $width;
+    height: $height;
+    transition: $transition;
+    backface-visibility: $backface-visibility;
+    box-shadow: $box-shadow;
+}
