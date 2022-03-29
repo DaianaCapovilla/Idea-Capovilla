@@ -7,12 +7,19 @@
     @media screen and (max-width: 980px) {
         padding: 100px 0px 20px 0px;
     }
+    .div-ghost {
+        @extend %disposicion;
+        .pic-ghost-error {
+            padding: 20px;
+        }
+    }
+    .typo-proyectos {
+        &::selection {
+            background-color: nth($colores, 2);
+            color: nth($colores, 1);
+          }
+    }
 }
 
-.div-ghost {
-    @extend %disposicion;
-}
 
-.pic-ghost-error {
-    padding: 20px;
-}
+

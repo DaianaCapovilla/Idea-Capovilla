@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marcellus&display=swap");
-.footer-cp .copyright, .div-ghost {
+.footer-cp .copyright, .div-error .div-ghost {
   display: flex;
   justify-content: center;
 }
@@ -72,7 +72,7 @@ html {
 
 /*encabezados*/
 /* Página 404 */
-.footer-cp .copyright, .div-ghost {
+.footer-cp .copyright, .div-error .div-ghost {
   display: flex;
   justify-content: center;
 }
@@ -85,14 +85,17 @@ html {
     padding: 100px 0px 20px 0px;
   }
 }
-
-.pic-ghost-error {
+.div-error .div-ghost .pic-ghost-error {
   padding: 20px;
+}
+.div-error .typo-proyectos::selection {
+  background-color: #303030;
+  color: #FFFFFF;
 }
 
 /* Footer */
 /*encabezados*/
-.footer-cp .copyright, .div-ghost {
+.footer-cp .copyright, .div-error .div-ghost {
   display: flex;
   justify-content: center;
 }
