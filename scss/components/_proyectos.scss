@@ -4,6 +4,10 @@
 
 .h2-centrado {
   text-align: center;
+  &::selection {
+    background-color: nth($colores, 2);
+    color: nth($colores, 1);
+  }
 }
 
 .row-proyectos {
@@ -16,12 +20,24 @@
 
 h4 {
     font-family: $tipografia1;
+    &::selection {
+      background-color: nth($colores, 2);
+      color: nth($colores, 1);
+    }
     @media screen and (max-width: 980px) {
       padding-top: 20px;
+      &::selection {
+        background-color: nth($colores, 2);
+        color: nth($colores, 1);
+      }
     }
 }
 
 .typo-proyectos{
   font-family: $tipografia1;
   font-size: 18px;
+  &::selection {
+    background-color: nth($colores, 2);
+    color: nth($colores, 1);
+  }
 }

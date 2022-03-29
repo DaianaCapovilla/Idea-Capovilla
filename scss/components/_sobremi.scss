@@ -12,8 +12,16 @@
 }
 
 .h3-sobremi {
+  &::selection {
+    background-color: nth($colores, 2);
+    color: nth($colores, 1);
+  }
   @media screen and (max-width: 980px) {
     padding-top: 20px;
+    &::selection {
+      background-color: nth($colores, 2);
+      color: nth($colores, 1);
+    }
   }
 }
 
@@ -21,6 +29,10 @@
   padding-top: 10px;
   font-family: $tipografia2;
   font-weight: 400;
+  &::selection {
+    background-color: nth($colores, 2);
+    color: nth($colores, 1);
+  }
 }
 
 /*Boton de ver mas */
@@ -37,6 +49,10 @@
     font-size: 16px;
     font-family: $tipografia1;
     cursor: pointer;
+    &::selection {
+      background-color: nth($colores, 2);
+      color: nth($colores, 1);
+    }
   }
   
   .vermas {

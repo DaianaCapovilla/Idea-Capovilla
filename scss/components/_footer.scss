@@ -10,6 +10,10 @@
     background-color: nth($colores, 3);
     h3 {
         color: nth($colores, 1);
+        &::selection {
+            background-color: nth($colores, 1);
+            color: nth($colores, 2);
+        }
         @media screen and (max-width: 980px) {
             padding-top: 20px;
         }
@@ -41,6 +45,10 @@
                     display: inline;
                     font-family: $tipografia2;
                     padding-left: 8px;
+                    &::selection {
+                        background-color: nth($colores, 1);
+                        color: nth($colores, 2);
+                    }
                 }
             }
         }
@@ -56,6 +64,10 @@
         font-size: 14px;
         color: nth($colores, 2);
         padding-top: 20px;
+        &::selection {
+            background-color: nth($colores, 1);
+            color: nth($colores, 2);
+        }
         @media screen and (max-width: 980px) {
             text-align: center;
             padding-bottom: 20px;

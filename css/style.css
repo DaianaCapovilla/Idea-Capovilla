@@ -24,6 +24,7 @@ html {
   display: none;
 }
 
+/*colores cp-arquitectura*/
 /*botones*/
 .boton-contacto {
   padding: 8px 24px;
@@ -96,6 +97,7 @@ html {
   justify-content: center;
 }
 
+/*colores cp-arquitectura*/
 /*botones*/
 .boton-contacto {
   padding: 8px 24px;
@@ -148,6 +150,10 @@ html {
 .footer-cp h3 {
   color: #FFFFFF;
 }
+.footer-cp h3::selection {
+  background-color: #FFFFFF;
+  color: #303030;
+}
 @media screen and (max-width: 980px) {
   .footer-cp h3 {
     padding-top: 20px;
@@ -186,6 +192,10 @@ html {
   font-family: "Inter", sans-serif;
   padding-left: 8px;
 }
+.footer-cp ul li a p::selection {
+  background-color: #FFFFFF;
+  color: #303030;
+}
 @media screen and (max-width: 980px) {
   .footer-cp .div-pic-footer {
     padding: 20px;
@@ -196,6 +206,10 @@ html {
   font-size: 14px;
   color: #303030;
   padding-top: 20px;
+}
+.footer-cp .copyright::selection {
+  background-color: #FFFFFF;
+  color: #303030;
 }
 @media screen and (max-width: 980px) {
   .footer-cp .copyright {
@@ -210,16 +224,28 @@ html {
   font-size: 12;
   color: #FFFFFF;
 }
+.p-header-carousel::selection {
+  background-color: #000000;
+  color: #FFFFFF;
+}
 
 .nav-tipo {
   font-family: "Marcellus", serif;
   margin: 1.5rem !important;
+}
+.nav-tipo::selection {
+  background-color: #FFFFFF;
+  color: #000000;
 }
 
 /* Sección proyectos */
 /*encabezados*/
 .h2-centrado {
   text-align: center;
+}
+.h2-centrado::selection {
+  background-color: #303030;
+  color: #FFFFFF;
 }
 
 .row-proyectos {
@@ -233,15 +259,27 @@ html {
 h4 {
   font-family: "Marcellus", serif;
 }
+h4::selection {
+  background-color: #303030;
+  color: #FFFFFF;
+}
 @media screen and (max-width: 980px) {
   h4 {
     padding-top: 20px;
+  }
+  h4::selection {
+    background-color: #303030;
+    color: #FFFFFF;
   }
 }
 
 .typo-proyectos {
   font-family: "Marcellus", serif;
   font-size: 18px;
+}
+.typo-proyectos::selection {
+  background-color: #303030;
+  color: #FFFFFF;
 }
 
 /* Sección servicios */
@@ -257,6 +295,10 @@ h4 {
 h1, h2, h3 {
   font-family: "Marcellus", serif;
   color: #2f4f4f;
+}
+h1::selection, h2::selection, h3::selection {
+  background-color: #303030;
+  color: #FFFFFF;
 }
 
 body, html {
@@ -304,14 +346,14 @@ body, html {
 }
 
 .textoverlay {
-  background-color: #111312;
-  color: white;
+  background-color: #000000;
+  color: #FFFFFF;
   font-size: 16px;
   padding: 16px 32px;
 }
 
 p {
-  font-family: "Inter-parrafos";
+  font-family: "Inter", sans-serif;
 }
 
 .servicios-container {
@@ -334,9 +376,17 @@ p {
   border-radius: 50%;
 }
 
+.h3-sobremi::selection {
+  background-color: #303030;
+  color: #FFFFFF;
+}
 @media screen and (max-width: 980px) {
   .h3-sobremi {
     padding-top: 20px;
+  }
+  .h3-sobremi::selection {
+    background-color: #303030;
+    color: #FFFFFF;
   }
 }
 
@@ -344,6 +394,10 @@ p {
   padding-top: 10px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
+}
+.p-sobremi::selection {
+  background-color: #303030;
+  color: #FFFFFF;
 }
 
 /*Boton de ver mas */
@@ -359,6 +413,10 @@ p {
   font-size: 16px;
   font-family: "Marcellus", serif;
   cursor: pointer;
+}
+.botoncito::selection {
+  background-color: #303030;
+  color: #FFFFFF;
 }
 
 .vermas {

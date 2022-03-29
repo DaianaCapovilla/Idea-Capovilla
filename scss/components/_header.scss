@@ -3,12 +3,20 @@
 .p-header-carousel {
     font-family: $tipografia1;
     font-size: 12;
-    color: nth($colores, 1)
+    color: nth($colores, 1);
+    &::selection {
+        background-color: nth($colores, 3);
+        color: nth($colores, 1);
+    }
 }
 
 .nav-tipo {
     font-family: $tipografia1;
     margin: 1.5rem !important;
+    &::selection {
+        background-color: nth($colores, 1);
+        color: nth($colores, 3);
+    }
 }
 
 

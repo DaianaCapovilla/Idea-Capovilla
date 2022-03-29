@@ -12,6 +12,10 @@
     h1, h2, h3 {
       font-family: $tipografia1;
       color: $encabezado-color;
+      &::selection {
+        background-color: nth($colores, 2);
+        color: nth($colores, 1);
+      }
     }
     
     body, html {
